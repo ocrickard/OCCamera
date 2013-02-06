@@ -2,6 +2,8 @@
 
 This demo is a quick camera implementation I've thrown together over a weekend.  It is very beta, but has many of the features that you would expect from a camera on iOS.  It is fully native, and uses NO external assets.  All icons/buttons are drawn using CoreGraphics or QuartzCore.  The demo app is built on the very excellent DIYAV and DIYCam projects, which have been modified slightly, and I need to separate them into separate forks from the root repos.
 
+![Screenshot](https://raw.github.com/ocrickard/OCCamera/master/screenshot.png)
+
 ##Structure##
 
 I've put a number of classes in the OCCameraViewController.h and .m files.  The idea was to keep it encapsulated, though the dependencies on the DIYAV and DIYCam libraries keep it from being a true 2-file camera component.
