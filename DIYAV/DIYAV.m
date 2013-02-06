@@ -279,6 +279,10 @@ NSString *const DIYAVSettingSaveLibrary            = @"DIYAVSettingSaveLibrary";
 
 #pragma mark - Private methods
 
+- (void)setFlashMode:(DIYAVFlashMode)mode {
+    [DIYAVUtilities setFlashMode:mode forCameraInPosition:[[self.options valueForKey:DIYAVSettingCameraPosition] integerValue]];
+}
+
 - (void)purgeMode
 {
     [self stopSession];

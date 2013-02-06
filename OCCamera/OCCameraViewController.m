@@ -8,6 +8,7 @@
 
 #import "OCCameraViewController.h"
 #import <QuartzCore/QuartzCore.h>
+#import "DIYAVUtilities.h"
 
 #define kIconFill [UIColor whiteColor]
 #define kBottomBarFill [UIColor whiteColor]
@@ -860,7 +861,7 @@ typedef enum {
 
 #define kBottomBarHeight 60
 
-@interface OCCameraViewController () <UIGestureRecognizerDelegate, OCCameraSwitchDelegate> {
+@interface OCCameraViewController () <UIGestureRecognizerDelegate, OCCameraSwitchDelegate, OCCameraFlashButtonDelegate> {
     NSArray *dividerLayers;
     
     OCCameraFocusView *focusView;
@@ -944,6 +945,7 @@ typedef enum {
 - (void)initializeFlashIcon {
     flashButton = [[OCCameraFlashButton alloc] initWithFrame:CGRectMake(10, 10, 30, 30)];
     flashButton.layer.zPosition = 5;
+    flashButton.delegate = self;
     [self.view addSubview:flashButton];
 }
 
@@ -1089,6 +1091,18 @@ typedef enum {
         }
     } completion:nil];
 
+}
+
+#pragma mark - Flash delegate
+
+- (void)flashButton:(OCCameraFlashButton *)button didChangeMode:(OCCameraFlashIconMode)m {
+    if(m == OCCameraFlashIconModeAuto) {
+        [self.cam.diyAV setFlashMode:DIYAVFlashModeAuto];
+    } else if(m == OCCameraFlashIconModeOn) {
+        [self.cam.diyAV setFlashMode:DIYAVFlashModeOn];
+    } else if(m == OCCameraFlashIconModeOff) {
+        [self.cam.diyAV setFlashMode:DIYAVFlashModeOff];
+    }
 }
 
 #pragma mark - Switch Delegate

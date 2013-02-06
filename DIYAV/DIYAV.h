@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
 #import "DIYAVDefaults.h"
+#import "DIYAVUtilities.h"
 
 @class DIYAVPreview;
 @class DIYAV;
@@ -68,5 +69,7 @@ NSString *const DIYAVSettingSaveLibrary;
 - (void)capturePhoto;
 - (void)captureVideoStart;
 - (void)captureVideoStop;
+
+- (void)setFlashMode:(DIYAVFlashMode)mode;
 
 @end
