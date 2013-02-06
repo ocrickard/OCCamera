@@ -1,0 +1,708 @@
+TOCCamera
+v5
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist build/Debug-iphoneos/OCCamera.app/ResourceRules.plist
+cProcessInfoPlistFile /Users/ocrickard/src/OCCamera/build/Debug-iphoneos/OCCamera.app/Info.plist OCCamera/OCCamera-Info.plist
+cProcessPCH /var/folders/k2/fqx7l37x0b7267n5rcglysn00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OCCamera-Prefix-disykuyyrmiaksazkrsjqsecnnnx/OCCamera-Prefix.pch.pth OCCamera/OCCamera-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/main.o /Users/ocrickard/src/OCCamera/OCCamera/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/AppDelegate.o /Users/ocrickard/src/OCCamera/OCCamera/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/ViewController.o /Users/ocrickard/src/OCCamera/OCCamera/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/Underscore.o /Users/ocrickard/src/OCCamera/DIYAV/lib/Underscore/Underscore.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYCam.o /Users/ocrickard/src/OCCamera/DIYCam/DIYCam.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYCamFileOperation.o /Users/ocrickard/src/OCCamera/DIYCam/DIYCamFileOperation.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYCamUtilities.o /Users/ocrickard/src/OCCamera/DIYCam/DIYCamUtilities.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYAVPreview.o /Users/ocrickard/src/OCCamera/DIYAV/DIYAVPreview.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYAV.o /Users/ocrickard/src/OCCamera/DIYAV/DIYAV.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYAVUtilities.o /Users/ocrickard/src/OCCamera/DIYAV/DIYAVUtilities.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/Underscore+Functional.o /Users/ocrickard/src/OCCamera/DIYAV/lib/Underscore/Underscore+Functional.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/USArrayWrapper.o /Users/ocrickard/src/OCCamera/DIYAV/lib/Underscore/USArrayWrapper.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/USDictionaryWrapper.o /Users/ocrickard/src/OCCamera/DIYAV/lib/Underscore/USDictionaryWrapper.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYCamLibraryVideoOperation.o /Users/ocrickard/src/OCCamera/DIYCam/DIYCamLibraryVideoOperation.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYCamLibraryImageOperation.o /Users/ocrickard/src/OCCamera/DIYCam/DIYCamLibraryImageOperation.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/ocrickard/src/OCCamera/build/Debug-iphoneos/OCCamera.app/OCCamera normal armv7s
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk
+c0000000050ED385D0000000000000110
+t1357723741
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist
+c000000005109C77100000000000001A7
+t1359595377
+s423
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist
+c000000005109C77100000000000001E5
+t1359595377
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000005109C771000000000036CDF0
+t1359595377
+s3591664
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000005109C7710000000000322700
+t1359595377
+s3286784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005109C772000000000062AD10
+t1359595378
+s6466832
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000005109C77100000000000015F7
+t1359595377
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000005109C7720000000000000E8D
+t1359595378
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000005109C77400000000011BCDF0
+t1359595380
+s18599408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/Availability.h
+c000000005109C7740000000000001B73
+t1359595380
+s7027
+
+N/Users/ocrickard/Library/MobileDevice/Provisioning Profiles/FF00B24F-9B35-4659-9C54-F6F9D08D3A4C.mobileprovision
+c0000000050F471F200000000000047E8
+t1358197234
+s18408
+
+N/Users/ocrickard/src/OCCamera/DIYAV/DIYAV.m
+c00000000510D61480000000000003D87
+t1359831368
+s15751
+
+N/Users/ocrickard/src/OCCamera/DIYAV/DIYAVPreview.m
+c00000000510D61480000000000000FC7
+t1359831368
+s4039
+
+N/Users/ocrickard/src/OCCamera/DIYAV/DIYAVUtilities.m
+c00000000510D61480000000000002347
+t1359831368
+s9031
+
+N/Users/ocrickard/src/OCCamera/DIYAV/lib/Underscore/USArrayWrapper.m
+c00000000510D61480000000000001A9E
+t1359831368
+s6814
+
+N/Users/ocrickard/src/OCCamera/DIYAV/lib/Underscore/USDictionaryWrapper.m
+c00000000510D614800000000000014EF
+t1359831368
+s5359
+
+N/Users/ocrickard/src/OCCamera/DIYAV/lib/Underscore/Underscore+Functional.m
+c00000000510D61480000000000001B96
+t1359831368
+s7062
+
+N/Users/ocrickard/src/OCCamera/DIYAV/lib/Underscore/Underscore.m
+c00000000510D61480000000000000911
+t1359831368
+s2321
+
+N/Users/ocrickard/src/OCCamera/DIYCam/DIYCam.m
+c00000000510D60E400000000000019FB
+t1359831268
+s6651
+
+N/Users/ocrickard/src/OCCamera/DIYCam/DIYCamFileOperation.m
+c00000000510D60E40000000000000832
+t1359831268
+s2098
+
+N/Users/ocrickard/src/OCCamera/DIYCam/DIYCamLibraryImageOperation.m
+c00000000510D60E40000000000000437
+t1359831268
+s1079
+
+N/Users/ocrickard/src/OCCamera/DIYCam/DIYCamLibraryVideoOperation.m
+c00000000510D60E40000000000000382
+t1359831268
+s898
+
+N/Users/ocrickard/src/OCCamera/DIYCam/DIYCamUtilities.m
+c00000000510D60E400000000000007F4
+t1359831268
+s2036
+
+N/Users/ocrickard/src/OCCamera/DIYCam/focus_indicator@2x.png
+c00000000510D60E4000000000000100C
+t1359831268
+s4108
+
+N/Users/ocrickard/src/OCCamera/OCCamera/AppDelegate.m
+c00000000510D631D00000000000009E7
+t1359831837
+s2535
+
+N/Users/ocrickard/src/OCCamera/OCCamera/Default-568h@2x.png
+c000000005094C3F800000000000048A2
+t1351926776
+s18594
+
+N/Users/ocrickard/src/OCCamera/OCCamera/Default.png
+c000000005094C3F8000000000000198C
+t1351926776
+s6540
+
+N/Users/ocrickard/src/OCCamera/OCCamera/Default@2x.png
+c000000005094C3F80000000000003EEB
+t1351926776
+s16107
+
+N/Users/ocrickard/src/OCCamera/OCCamera/OCCamera-Prefix.pch
+c00000000510D631D000000000000013F
+t1359831837
+s319
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/ocrickard/src/OCCamera/OCCamera/ViewController.m
+c00000000510D631D00000000000001F7
+t1359831837
+s503
+
+N/Users/ocrickard/src/OCCamera/OCCamera/en.lproj/InfoPlist.strings
+c00000000510D631D000000000000002D
+t1359831837
+s45
+
+N/Users/ocrickard/src/OCCamera/OCCamera/en.lproj/ViewController_iPad.xib
+c00000000510D631D0000000000001489
+t1359831837
+s5257
+
+N/Users/ocrickard/src/OCCamera/OCCamera/en.lproj/ViewController_iPhone.xib
+c00000000510D631D0000000000001782
+t1359831837
+s6018
+
+N/Users/ocrickard/src/OCCamera/OCCamera/main.m
+c00000000510D631D000000000000015A
+t1359831837
+s346
+
+N/Users/ocrickard/src/OCCamera/build/Debug-iphoneos/OCCamera.app
+t2
+s0
+
+N/Users/ocrickard/src/OCCamera/build/Debug-iphoneos/OCCamera.app.dSYM
+t2
+s0
+
+N/Users/ocrickard/src/OCCamera/build/Debug-iphoneos/OCCamera.app/Default-568h@2x.png
+t2
+s0
+
+N/Users/ocrickard/src/OCCamera/build/Debug-iphoneos/OCCamera.app/Default.png
+t2
+s0
+
+N/Users/ocrickard/src/OCCamera/build/Debug-iphoneos/OCCamera.app/Default@2x.png
+t2
+s0
+
+N/Users/ocrickard/src/OCCamera/build/Debug-iphoneos/OCCamera.app/Info.plist
+t2
+s0
+
+N/Users/ocrickard/src/OCCamera/build/Debug-iphoneos/OCCamera.app/OCCamera
+t2
+s0
+
+N/Users/ocrickard/src/OCCamera/build/Debug-iphoneos/OCCamera.app/PkgInfo
+t2
+s0
+
+N/Users/ocrickard/src/OCCamera/build/Debug-iphoneos/OCCamera.app/ResourceRules.plist
+t2
+s0
+
+N/Users/ocrickard/src/OCCamera/build/Debug-iphoneos/OCCamera.app/embedded.mobileprovision
+t2
+s0
+
+N/Users/ocrickard/src/OCCamera/build/Debug-iphoneos/OCCamera.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/ocrickard/src/OCCamera/build/Debug-iphoneos/OCCamera.app/en.lproj/ViewController_iPad.nib
+t2
+s0
+
+N/Users/ocrickard/src/OCCamera/build/Debug-iphoneos/OCCamera.app/en.lproj/ViewController_iPhone.nib
+t2
+s0
+
+N/Users/ocrickard/src/OCCamera/build/Debug-iphoneos/OCCamera.app/focus_indicator@2x.png
+t2
+s0
+
+N/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera.xcent
+t2
+s0
+
+N/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/AppDelegate.o
+t2
+s0
+
+N/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYAV.o
+t2
+s0
+
+N/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYAVPreview.o
+t2
+s0
+
+N/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYAVUtilities.o
+t2
+s0
+
+N/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYCam.o
+t2
+s0
+
+N/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYCamFileOperation.o
+t2
+s0
+
+N/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYCamLibraryImageOperation.o
+t2
+s0
+
+N/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYCamLibraryVideoOperation.o
+t2
+s0
+
+N/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYCamUtilities.o
+t2
+s0
+
+N/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/OCCamera.LinkFileList
+c00000000510D636B0000000000000710
+t1359831915
+s1808
+
+N/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/USArrayWrapper.o
+t2
+s0
+
+N/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/USDictionaryWrapper.o
+t2
+s0
+
+N/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/Underscore+Functional.o
+t2
+s0
+
+N/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/Underscore.o
+t2
+s0
+
+N/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/ViewController.o
+t2
+s0
+
+N/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/main.o
+t2
+s0
+
+N/var/folders/k2/fqx7l37x0b7267n5rcglysn00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OCCamera-Prefix-disykuyyrmiaksazkrsjqsecnnnx/OCCamera-Prefix.pch.pth
+t2
+s0
+
+NOCCamera/OCCamera-Info.plist
+c00000000510D631D00000000000005B3
+t1359831837
+s1459
+
+CBuild AST from /Users/ocrickard/src/OCCamera/DIYAV/DIYAV.m
+r0
+
+CBuild AST from /Users/ocrickard/src/OCCamera/DIYAV/DIYAVPreview.m
+r0
+
+CBuild AST from /Users/ocrickard/src/OCCamera/DIYAV/DIYAVUtilities.m
+r0
+
+CBuild AST from /Users/ocrickard/src/OCCamera/DIYAV/lib/Underscore/USArrayWrapper.m
+r0
+
+CBuild AST from /Users/ocrickard/src/OCCamera/DIYAV/lib/Underscore/USDictionaryWrapper.m
+r0
+
+CBuild AST from /Users/ocrickard/src/OCCamera/DIYAV/lib/Underscore/Underscore+Functional.m
+r0
+
+CBuild AST from /Users/ocrickard/src/OCCamera/DIYAV/lib/Underscore/Underscore.m
+r0
+
+CBuild AST from /Users/ocrickard/src/OCCamera/DIYCam/DIYCam.m
+r0
+
+CBuild AST from /Users/ocrickard/src/OCCamera/DIYCam/DIYCamFileOperation.m
+r0
+
+CBuild AST from /Users/ocrickard/src/OCCamera/DIYCam/DIYCamLibraryImageOperation.m
+r0
+
+CBuild AST from /Users/ocrickard/src/OCCamera/DIYCam/DIYCamLibraryVideoOperation.m
+r0
+
+CBuild AST from /Users/ocrickard/src/OCCamera/DIYCam/DIYCamUtilities.m
+r0
+
+CBuild AST from /Users/ocrickard/src/OCCamera/OCCamera/AppDelegate.m
+r0
+
+CBuild AST from /Users/ocrickard/src/OCCamera/OCCamera/ViewController.m
+r0
+
+CBuild AST from /Users/ocrickard/src/OCCamera/OCCamera/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies5c582feb9abdb641^043746eb9abdb641^---0#1#0#--18"Check dependencies36"83F6DEE7-2751-43CF-AB97-13348787FA4F-
+
+CCodeSign /Users/ocrickard/src/OCCamera/build/Debug-iphoneos/OCCamera.app
+r0
+
+CCompileC build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/AppDelegate.o /Users/ocrickard/src/OCCamera/OCCamera/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381524715.534807
+e381524715.628581
+r1
+xCompileC
+xbuild/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/AppDelegate.o
+x/Users/ocrickard/src/OCCamera/OCCamera/AppDelegate.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/ocrickard/src/OCCamera/OCCamera/AppDelegate.m771289eb9abdb641^f7e9a0eb9abdb641^---0#0#0#-19%DVTDocumentLocation2@68"file://localhost/Users/ocrickard/src/OCCamera/OCCamera/AppDelegate.m0000000000000000^3178"CompileC build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/AppDelegate.o OCCamera/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ocrickard/src/OCCamera    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-generated-files.hmap -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-own-target-headers.hmap -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-all-target-headers.hmap -iquote /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-project-headers.hmap -I/Users/ocrickard/src/OCCamera/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/DerivedSources/armv7s -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/DerivedSources -F/Users/ocrickard/src/OCCamera/build/Debug-iphoneos -include /var/folders/k2/fqx7l37x0b7267n5rcglysn00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OCCamera-Prefix-disykuyyrmiaksazkrsjqsecnnnx/OCCamera-Prefix.pch -MMD -MT dependencies -MF /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/AppDelegate.d --serialize-diagnostics /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/AppDelegate.dia -c /Users/ocrickard/src/OCCamera/OCCamera/AppDelegate.m -o /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/AppDelegate.o36"CC4C5A8B-F404-4D53-A360-B79479EA02A7-
+
+CCompileC build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYAV.o /Users/ocrickard/src/OCCamera/DIYAV/DIYAV.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381524715.570492
+e381524715.777475
+r1
+xCompileC
+xbuild/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYAV.o
+x/Users/ocrickard/src/OCCamera/DIYAV/DIYAV.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Compile /Users/ocrickard/src/OCCamera/DIYAV/DIYAV.m933992eb9abdb641^4608c7eb9abdb641^---0#0#0#-19%DVTDocumentLocation2@59"file://localhost/Users/ocrickard/src/OCCamera/DIYAV/DIYAV.m0000000000000000^3136"CompileC build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYAV.o DIYAV/DIYAV.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ocrickard/src/OCCamera    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-generated-files.hmap -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-own-target-headers.hmap -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-all-target-headers.hmap -iquote /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-project-headers.hmap -I/Users/ocrickard/src/OCCamera/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/DerivedSources/armv7s -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/DerivedSources -F/Users/ocrickard/src/OCCamera/build/Debug-iphoneos -include /var/folders/k2/fqx7l37x0b7267n5rcglysn00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OCCamera-Prefix-disykuyyrmiaksazkrsjqsecnnnx/OCCamera-Prefix.pch -MMD -MT dependencies -MF /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYAV.d --serialize-diagnostics /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYAV.dia -c /Users/ocrickard/src/OCCamera/DIYAV/DIYAV.m -o /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYAV.o36"1B484798-20AC-4399-8815-7EA12BA98D99-
+
+CCompileC build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYAVPreview.o /Users/ocrickard/src/OCCamera/DIYAV/DIYAVPreview.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381524715.535202
+e381524715.713300
+r1
+xCompileC
+xbuild/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYAVPreview.o
+x/Users/ocrickard/src/OCCamera/DIYAV/DIYAVPreview.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/ocrickard/src/OCCamera/DIYAV/DIYAVPreview.m:75:46: warning: 'orientationSupported' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]
+o    if (!self.shouldForceOrientation && self.orientationSupported) {
+o                                             ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVCaptureVideoPreviewLayer.h:226:69: note: 'orientationSupported' declared here
+o@property (nonatomic, readonly, getter=isOrientationSupported) BOOL orientationSupported NS_DEPRECATED_IOS(4_0, 6_0);
+o                                                                    ^
+o/Users/ocrickard/src/OCCamera/DIYAV/DIYAVPreview.m:97:45: warning: 'orientationSupported' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]
+o    if (self.shouldForceOrientation || self.orientationSupported) {
+o                                            ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVCaptureVideoPreviewLayer.h:226:69: note: 'orientationSupported' declared here
+o@property (nonatomic, readonly, getter=isOrientationSupported) BOOL orientationSupported NS_DEPRECATED_IOS(4_0, 6_0);
+o                                                                    ^
+o/Users/ocrickard/src/OCCamera/DIYAV/DIYAVPreview.m:99:14: warning: 'orientation' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]
+o        self.orientation    = newOrientation;
+o             ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVCaptureVideoPreviewLayer.h:239:49: note: 'orientation' declared here
+o@property (nonatomic) AVCaptureVideoOrientation orientation NS_DEPRECATED_IOS(4_0, 6_0);
+o                                                ^
+o3 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Compile /Users/ocrickard/src/OCCamera/DIYAV/DIYAVPreview.m581d89eb9abdb641^3199b6eb9abdb641^-2010"/Users/ocrickard/src/OCCamera/DIYAV/DIYAVPreview.m:75:46: warning: 'orientationSupported' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]    if (!self.shouldForceOrientation && self.orientationSupported) {                                             ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVCaptureVideoPreviewLayer.h:226:69: note: 'orientationSupported' declared here@property (nonatomic, readonly, getter=isOrientationSupported) BOOL orientationSupported NS_DEPRECATED_IOS(4_0, 6_0);                                                                    ^/Users/ocrickard/src/OCCamera/DIYAV/DIYAVPreview.m:97:45: warning: 'orientationSupported' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]    if (self.shouldForceOrientation || self.orientationSupported) {                                            ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVCaptureVideoPreviewLayer.h:226:69: note: 'orientationSupported' declared here@property (nonatomic, readonly, getter=isOrientationSupported) BOOL orientationSupported NS_DEPRECATED_IOS(4_0, 6_0);                                                                    ^/Users/ocrickard/src/OCCamera/DIYAV/DIYAVPreview.m:99:14: warning: 'orientation' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]        self.orientation    = newOrientation;             ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVCaptureVideoPreviewLayer.h:239:49: note: 'orientation' declared here@property (nonatomic) AVCaptureVideoOrientation orientation NS_DEPRECATED_IOS(4_0, 6_0);                                                ^3 warnings generated.3(36%IDEClangDiagnosticActivityLogMessage2@65"'orientationSupported' is deprecated: first deprecated in iOS 6.0-381524715#18446744073709551615#0#1(2@36"'orientationSupported' declared here-381524715#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@203"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVCaptureVideoPreviewLayer.h0000000000000000^225#68#225#68#8743#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@66"file://localhost/Users/ocrickard/src/OCCamera/DIYAV/DIYAVPreview.m0000000000000000^74#45#74#45#1859#0#12"Deprecations--2@65"'orientationSupported' is deprecated: first deprecated in iOS 6.0-381524715#18446744073709551615#0#1(2@36"'orientationSupported' declared here-381524715#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@203"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVCaptureVideoPreviewLayer.h0000000000000000^225#68#225#68#8743#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@66"file://localhost/Users/ocrickard/src/OCCamera/DIYAV/DIYAVPreview.m0000000000000000^96#44#96#44#2740#0#12"Deprecations--2@56"'orientation' is deprecated: first deprecated in iOS 6.0-381524715#18446744073709551615#0#1(2@27"'orientation' declared here-381524715#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@203"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVCaptureVideoPreviewLayer.h0000000000000000^238#48#238#48#9269#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@66"file://localhost/Users/ocrickard/src/OCCamera/DIYAV/DIYAVPreview.m0000000000000000^98#13#98#13#2874#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@66"file://localhost/Users/ocrickard/src/OCCamera/DIYAV/DIYAVPreview.m0000000000000000^3178"CompileC build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYAVPreview.o DIYAV/DIYAVPreview.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ocrickard/src/OCCamera    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-generated-files.hmap -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-own-target-headers.hmap -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-all-target-headers.hmap -iquote /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-project-headers.hmap -I/Users/ocrickard/src/OCCamera/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/DerivedSources/armv7s -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/DerivedSources -F/Users/ocrickard/src/OCCamera/build/Debug-iphoneos -include /var/folders/k2/fqx7l37x0b7267n5rcglysn00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OCCamera-Prefix-disykuyyrmiaksazkrsjqsecnnnx/OCCamera-Prefix.pch -MMD -MT dependencies -MF /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYAVPreview.d --serialize-diagnostics /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYAVPreview.dia -c /Users/ocrickard/src/OCCamera/DIYAV/DIYAVPreview.m -o /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYAVPreview.o36"481256DC-E112-4251-927D-EB5D2DCAD435-
+
+CCompileC build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYAVUtilities.o /Users/ocrickard/src/OCCamera/DIYAV/DIYAVUtilities.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381524715.579973
+e381524715.772000
+r1
+xCompileC
+xbuild/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYAVUtilities.o
+x/Users/ocrickard/src/OCCamera/DIYAV/DIYAVUtilities.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/ocrickard/src/OCCamera/DIYAV/DIYAVUtilities.m:124:17: warning: 'isMirrored' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]
+o    if (preview.isMirrored) {
+o                ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVCaptureVideoPreviewLayer.h:283:47: note: method 'isMirrored' declared here
+o@property (nonatomic, getter=isMirrored) BOOL mirrored NS_DEPRECATED_IOS(4_0, 6_0);
+o                                              ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVCaptureVideoPreviewLayer.h:283:47: note: property 'mirrored' is declared deprecated here
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/ocrickard/src/OCCamera/DIYAV/DIYAVUtilities.m98a694eb9abdb641^55a1c5eb9abdb641^-841"/Users/ocrickard/src/OCCamera/DIYAV/DIYAVUtilities.m:124:17: warning: 'isMirrored' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]    if (preview.isMirrored) {                ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVCaptureVideoPreviewLayer.h:283:47: note: method 'isMirrored' declared here@property (nonatomic, getter=isMirrored) BOOL mirrored NS_DEPRECATED_IOS(4_0, 6_0);                                              ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVCaptureVideoPreviewLayer.h:283:47: note: property 'mirrored' is declared deprecated here1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@55"'isMirrored' is deprecated: first deprecated in iOS 6.0-381524715#18446744073709551615#0#2(2@33"Method 'isMirrored' declared here-381524715#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@203"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVCaptureVideoPreviewLayer.h0000000000000000^282#46#282#46#11215#0#14"Semantic Issue--2@47"Property 'mirrored' is declared deprecated here-381524715#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@203"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVCaptureVideoPreviewLayer.h0000000000000000^282#46#282#46#11215#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@68"file://localhost/Users/ocrickard/src/OCCamera/DIYAV/DIYAVUtilities.m0000000000000000^123#16#123#16#4067#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@68"file://localhost/Users/ocrickard/src/OCCamera/DIYAV/DIYAVUtilities.m0000000000000000^3190"CompileC build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYAVUtilities.o DIYAV/DIYAVUtilities.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ocrickard/src/OCCamera    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-generated-files.hmap -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-own-target-headers.hmap -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-all-target-headers.hmap -iquote /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-project-headers.hmap -I/Users/ocrickard/src/OCCamera/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/DerivedSources/armv7s -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/DerivedSources -F/Users/ocrickard/src/OCCamera/build/Debug-iphoneos -include /var/folders/k2/fqx7l37x0b7267n5rcglysn00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OCCamera-Prefix-disykuyyrmiaksazkrsjqsecnnnx/OCCamera-Prefix.pch -MMD -MT dependencies -MF /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYAVUtilities.d --serialize-diagnostics /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYAVUtilities.dia -c /Users/ocrickard/src/OCCamera/DIYAV/DIYAVUtilities.m -o /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYAVUtilities.o36"8A6951AA-58DE-4684-98F4-620A4FA071B3-
+
+CCompileC build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYCam.o /Users/ocrickard/src/OCCamera/DIYCam/DIYCam.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381524715.534835
+e381524715.765356
+r1
+xCompileC
+xbuild/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYCam.o
+x/Users/ocrickard/src/OCCamera/DIYCam/DIYCam.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Compile /Users/ocrickard/src/OCCamera/DIYCam/DIYCam.mcf1189eb9abdb641^3deec3eb9abdb641^---0#0#0#-19%DVTDocumentLocation2@61"file://localhost/Users/ocrickard/src/OCCamera/DIYCam/DIYCam.m0000000000000000^3144"CompileC build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYCam.o DIYCam/DIYCam.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ocrickard/src/OCCamera    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-generated-files.hmap -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-own-target-headers.hmap -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-all-target-headers.hmap -iquote /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-project-headers.hmap -I/Users/ocrickard/src/OCCamera/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/DerivedSources/armv7s -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/DerivedSources -F/Users/ocrickard/src/OCCamera/build/Debug-iphoneos -include /var/folders/k2/fqx7l37x0b7267n5rcglysn00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OCCamera-Prefix-disykuyyrmiaksazkrsjqsecnnnx/OCCamera-Prefix.pch -MMD -MT dependencies -MF /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYCam.d --serialize-diagnostics /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYCam.dia -c /Users/ocrickard/src/OCCamera/DIYCam/DIYCam.m -o /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYCam.o36"0AFC2DCF-8967-4889-BE34-39C536A70977-
+
+CCompileC build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYCamFileOperation.o /Users/ocrickard/src/OCCamera/DIYCam/DIYCamFileOperation.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381524715.534837
+e381524715.586128
+r1
+xCompileC
+xbuild/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYCamFileOperation.o
+x/Users/ocrickard/src/OCCamera/DIYCam/DIYCamFileOperation.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/ocrickard/src/OCCamera/DIYCam/DIYCamFileOperation.m5a1189eb9abdb641^310a96eb9abdb641^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/ocrickard/src/OCCamera/DIYCam/DIYCamFileOperation.m0000000000000000^3222"CompileC build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYCamFileOperation.o DIYCam/DIYCamFileOperation.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ocrickard/src/OCCamera    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-generated-files.hmap -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-own-target-headers.hmap -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-all-target-headers.hmap -iquote /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-project-headers.hmap -I/Users/ocrickard/src/OCCamera/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/DerivedSources/armv7s -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/DerivedSources -F/Users/ocrickard/src/OCCamera/build/Debug-iphoneos -include /var/folders/k2/fqx7l37x0b7267n5rcglysn00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OCCamera-Prefix-disykuyyrmiaksazkrsjqsecnnnx/OCCamera-Prefix.pch -MMD -MT dependencies -MF /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYCamFileOperation.d --serialize-diagnostics /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYCamFileOperation.dia -c /Users/ocrickard/src/OCCamera/DIYCam/DIYCamFileOperation.m -o /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYCamFileOperation.o36"16C420E3-2DFE-481A-BB84-DCB04293B756-
+
+CCompileC build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYCamLibraryImageOperation.o /Users/ocrickard/src/OCCamera/DIYCam/DIYCamLibraryImageOperation.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381524715.708198
+e381524715.755905
+r1
+xCompileC
+xbuild/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYCamLibraryImageOperation.o
+x/Users/ocrickard/src/OCCamera/DIYCam/DIYCamLibraryImageOperation.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/ocrickard/src/OCCamera/DIYCam/DIYCamLibraryImageOperation.m3202b6eb9abdb641^6682c1eb9abdb641^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/ocrickard/src/OCCamera/DIYCam/DIYCamLibraryImageOperation.m0000000000000000^3270"CompileC build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYCamLibraryImageOperation.o DIYCam/DIYCamLibraryImageOperation.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ocrickard/src/OCCamera    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-generated-files.hmap -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-own-target-headers.hmap -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-all-target-headers.hmap -iquote /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-project-headers.hmap -I/Users/ocrickard/src/OCCamera/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/DerivedSources/armv7s -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/DerivedSources -F/Users/ocrickard/src/OCCamera/build/Debug-iphoneos -include /var/folders/k2/fqx7l37x0b7267n5rcglysn00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OCCamera-Prefix-disykuyyrmiaksazkrsjqsecnnnx/OCCamera-Prefix.pch -MMD -MT dependencies -MF /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYCamLibraryImageOperation.d --serialize-diagnostics /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYCamLibraryImageOperation.dia -c /Users/ocrickard/src/OCCamera/DIYCam/DIYCamLibraryImageOperation.m -o /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYCamLibraryImageOperation.o36"9F5855A3-384C-43C7-8037-AB311CC7F8D3-
+
+CCompileC build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYCamLibraryVideoOperation.o /Users/ocrickard/src/OCCamera/DIYCam/DIYCamLibraryVideoOperation.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381524715.707382
+e381524715.752461
+r1
+xCompileC
+xbuild/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYCamLibraryVideoOperation.o
+x/Users/ocrickard/src/OCCamera/DIYCam/DIYCamLibraryVideoOperation.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/ocrickard/src/OCCamera/DIYCam/DIYCamLibraryVideoOperation.m8e3bb5eb9abdb641^8ca1c0eb9abdb641^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/ocrickard/src/OCCamera/DIYCam/DIYCamLibraryVideoOperation.m0000000000000000^3270"CompileC build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYCamLibraryVideoOperation.o DIYCam/DIYCamLibraryVideoOperation.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ocrickard/src/OCCamera    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-generated-files.hmap -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-own-target-headers.hmap -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-all-target-headers.hmap -iquote /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-project-headers.hmap -I/Users/ocrickard/src/OCCamera/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/DerivedSources/armv7s -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/DerivedSources -F/Users/ocrickard/src/OCCamera/build/Debug-iphoneos -include /var/folders/k2/fqx7l37x0b7267n5rcglysn00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OCCamera-Prefix-disykuyyrmiaksazkrsjqsecnnnx/OCCamera-Prefix.pch -MMD -MT dependencies -MF /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYCamLibraryVideoOperation.d --serialize-diagnostics /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYCamLibraryVideoOperation.dia -c /Users/ocrickard/src/OCCamera/DIYCam/DIYCamLibraryVideoOperation.m -o /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYCamLibraryVideoOperation.o36"414555F9-C134-4E80-9667-F44A1D510E4D-
+
+CCompileC build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYCamUtilities.o /Users/ocrickard/src/OCCamera/DIYCam/DIYCamUtilities.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381524715.534843
+e381524715.704939
+r1
+xCompileC
+xbuild/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYCamUtilities.o
+x/Users/ocrickard/src/OCCamera/DIYCam/DIYCamUtilities.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/ocrickard/src/OCCamera/DIYCam/DIYCamUtilities.m761689eb9abdb641^5280b4eb9abdb641^---0#0#0#-19%DVTDocumentLocation2@70"file://localhost/Users/ocrickard/src/OCCamera/DIYCam/DIYCamUtilities.m0000000000000000^3198"CompileC build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYCamUtilities.o DIYCam/DIYCamUtilities.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ocrickard/src/OCCamera    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-generated-files.hmap -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-own-target-headers.hmap -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-all-target-headers.hmap -iquote /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-project-headers.hmap -I/Users/ocrickard/src/OCCamera/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/DerivedSources/armv7s -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/DerivedSources -F/Users/ocrickard/src/OCCamera/build/Debug-iphoneos -include /var/folders/k2/fqx7l37x0b7267n5rcglysn00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OCCamera-Prefix-disykuyyrmiaksazkrsjqsecnnnx/OCCamera-Prefix.pch -MMD -MT dependencies -MF /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYCamUtilities.d --serialize-diagnostics /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYCamUtilities.dia -c /Users/ocrickard/src/OCCamera/DIYCam/DIYCamUtilities.m -o /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/DIYCamUtilities.o36"5406E3B6-DC54-4E48-A17E-4483B795B0D6-
+
+CCompileC build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/USArrayWrapper.o /Users/ocrickard/src/OCCamera/DIYAV/lib/Underscore/USArrayWrapper.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381524715.605887
+e381524715.711915
+r1
+xCompileC
+xbuild/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/USArrayWrapper.o
+x/Users/ocrickard/src/OCCamera/DIYAV/lib/Underscore/USArrayWrapper.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/ocrickard/src/OCCamera/DIYAV/lib/Underscore/USArrayWrapper.m:124:45: warning: capturing 'flatten' strongly in this block is likely to lead to a retain cycle [-Warc-retain-cycles]
+o                [result addObjectsFromArray:flatten(obj)];
+o                                            ^~~~~~~
+o/Users/ocrickard/src/OCCamera/DIYAV/lib/Underscore/USArrayWrapper.m:119:24: note: block will be retained by the captured object
+o    __block NSArray *(^flatten)(NSArray *) = ^NSArray *(NSArray *input) {
+o    ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/ocrickard/src/OCCamera/DIYAV/lib/Underscore/USArrayWrapper.mc45f9beb9abdb641^a857b6eb9abdb641^-563"/Users/ocrickard/src/OCCamera/DIYAV/lib/Underscore/USArrayWrapper.m:124:45: warning: capturing 'flatten' strongly in this block is likely to lead to a retain cycle [-Warc-retain-cycles]                [result addObjectsFromArray:flatten(obj)];                                            ^~~~~~~/Users/ocrickard/src/OCCamera/DIYAV/lib/Underscore/USArrayWrapper.m:119:24: note: block will be retained by the captured object    __block NSArray *(^flatten)(NSArray *) = ^NSArray *(NSArray *input) {    ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@78"Capturing 'flatten' strongly in this block is likely to lead to a retain cycle-381524715#18446744073709551615#0#1(2@45"Block will be retained by the captured object-381524715#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@83"file://localhost/Users/ocrickard/src/OCCamera/DIYAV/lib/Underscore/USArrayWrapper.m0000000000000000^118#23#118#23#3086#0#16"ARC Retain Cycle1(3@83"file://localhost/Users/ocrickard/src/OCCamera/DIYAV/lib/Underscore/USArrayWrapper.m0000000000000000^118#4#118#42#3067#37#-1#27"com.apple.dt.IDE.diagnostic3@83"file://localhost/Users/ocrickard/src/OCCamera/DIYAV/lib/Underscore/USArrayWrapper.m0000000000000000^123#44#123#44#3326#0#16"ARC Retain Cycle1(3@83"file://localhost/Users/ocrickard/src/OCCamera/DIYAV/lib/Underscore/USArrayWrapper.m0000000000000000^123#44#123#51#3326#0#-0#0#0#-19%DVTDocumentLocation4@83"file://localhost/Users/ocrickard/src/OCCamera/DIYAV/lib/Underscore/USArrayWrapper.m0000000000000000^3220"CompileC build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/USArrayWrapper.o DIYAV/lib/Underscore/USArrayWrapper.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ocrickard/src/OCCamera    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-generated-files.hmap -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-own-target-headers.hmap -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-all-target-headers.hmap -iquote /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-project-headers.hmap -I/Users/ocrickard/src/OCCamera/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/DerivedSources/armv7s -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/DerivedSources -F/Users/ocrickard/src/OCCamera/build/Debug-iphoneos -include /var/folders/k2/fqx7l37x0b7267n5rcglysn00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OCCamera-Prefix-disykuyyrmiaksazkrsjqsecnnnx/OCCamera-Prefix.pch -MMD -MT dependencies -MF /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/USArrayWrapper.d --serialize-diagnostics /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/USArrayWrapper.dia -c /Users/ocrickard/src/OCCamera/DIYAV/lib/Underscore/USArrayWrapper.m -o /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/USArrayWrapper.o36"8A4AB8DE-950D-4492-AA3E-62E22FEE1E32-
+
+CCompileC build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/USDictionaryWrapper.o /Users/ocrickard/src/OCCamera/DIYAV/lib/Underscore/USDictionaryWrapper.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381524715.649556
+e381524715.749478
+r1
+xCompileC
+xbuild/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/USDictionaryWrapper.o
+x/Users/ocrickard/src/OCCamera/DIYAV/lib/Underscore/USDictionaryWrapper.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/ocrickard/src/OCCamera/DIYAV/lib/Underscore/USDictionaryWrapper.ma089a8eb9abdb641^23ddbfeb9abdb641^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/ocrickard/src/OCCamera/DIYAV/lib/Underscore/USDictionaryWrapper.m0000000000000000^3250"CompileC build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/USDictionaryWrapper.o DIYAV/lib/Underscore/USDictionaryWrapper.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ocrickard/src/OCCamera    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-generated-files.hmap -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-own-target-headers.hmap -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-all-target-headers.hmap -iquote /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-project-headers.hmap -I/Users/ocrickard/src/OCCamera/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/DerivedSources/armv7s -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/DerivedSources -F/Users/ocrickard/src/OCCamera/build/Debug-iphoneos -include /var/folders/k2/fqx7l37x0b7267n5rcglysn00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OCCamera-Prefix-disykuyyrmiaksazkrsjqsecnnnx/OCCamera-Prefix.pch -MMD -MT dependencies -MF /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/USDictionaryWrapper.d --serialize-diagnostics /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/USDictionaryWrapper.dia -c /Users/ocrickard/src/OCCamera/DIYAV/lib/Underscore/USDictionaryWrapper.m -o /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/USDictionaryWrapper.o36"79E974DE-F286-4431-B509-2102209CB747-
+
+CCompileC build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/Underscore+Functional.o /Users/ocrickard/src/OCCamera/DIYAV/lib/Underscore/Underscore+Functional.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381524715.587577
+e381524715.704707
+r1
+xCompileC
+xbuild/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/Underscore+Functional.o
+x/Users/ocrickard/src/OCCamera/DIYAV/lib/Underscore/Underscore+Functional.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/ocrickard/src/OCCamera/DIYAV/lib/Underscore/Underscore+Functional.m539596eb9abdb641^c87cb4eb9abdb641^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/ocrickard/src/OCCamera/DIYAV/lib/Underscore/Underscore+Functional.m0000000000000000^3262"CompileC build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/Underscore+Functional.o DIYAV/lib/Underscore/Underscore+Functional.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ocrickard/src/OCCamera    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-generated-files.hmap -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-own-target-headers.hmap -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-all-target-headers.hmap -iquote /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-project-headers.hmap -I/Users/ocrickard/src/OCCamera/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/DerivedSources/armv7s -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/DerivedSources -F/Users/ocrickard/src/OCCamera/build/Debug-iphoneos -include /var/folders/k2/fqx7l37x0b7267n5rcglysn00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OCCamera-Prefix-disykuyyrmiaksazkrsjqsecnnnx/OCCamera-Prefix.pch -MMD -MT dependencies -MF /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/Underscore+Functional.d --serialize-diagnostics /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/Underscore+Functional.dia -c /Users/ocrickard/src/OCCamera/DIYAV/lib/Underscore/Underscore+Functional.m -o /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/Underscore+Functional.o36"9555962E-0943-401D-91C1-47210628C8BA-
+
+CCompileC build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/Underscore.o /Users/ocrickard/src/OCCamera/DIYAV/lib/Underscore/Underscore.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381524715.534818
+e381524715.578617
+r1
+xCompileC
+xbuild/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/Underscore.o
+x/Users/ocrickard/src/OCCamera/DIYAV/lib/Underscore/Underscore.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/ocrickard/src/OCCamera/DIYAV/lib/Underscore/Underscore.m670e89eb9abdb641^2d2494eb9abdb641^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/ocrickard/src/OCCamera/DIYAV/lib/Underscore/Underscore.m0000000000000000^3196"CompileC build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/Underscore.o DIYAV/lib/Underscore/Underscore.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ocrickard/src/OCCamera    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-generated-files.hmap -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-own-target-headers.hmap -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-all-target-headers.hmap -iquote /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-project-headers.hmap -I/Users/ocrickard/src/OCCamera/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/DerivedSources/armv7s -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/DerivedSources -F/Users/ocrickard/src/OCCamera/build/Debug-iphoneos -include /var/folders/k2/fqx7l37x0b7267n5rcglysn00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OCCamera-Prefix-disykuyyrmiaksazkrsjqsecnnnx/OCCamera-Prefix.pch -MMD -MT dependencies -MF /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/Underscore.d --serialize-diagnostics /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/Underscore.dia -c /Users/ocrickard/src/OCCamera/DIYAV/lib/Underscore/Underscore.m -o /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/Underscore.o36"8826AA94-9ECC-451D-A23B-4DD6BC1A65A2-
+
+CCompileC build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/ViewController.o /Users/ocrickard/src/OCCamera/OCCamera/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381524715.534811
+e381524715.604552
+r1
+xCompileC
+xbuild/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/ViewController.o
+x/Users/ocrickard/src/OCCamera/OCCamera/ViewController.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/ocrickard/src/OCCamera/OCCamera/ViewController.mb30c89eb9abdb641^76c39aeb9abdb641^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Users/ocrickard/src/OCCamera/OCCamera/ViewController.m0000000000000000^3196"CompileC build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/ViewController.o OCCamera/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ocrickard/src/OCCamera    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-generated-files.hmap -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-own-target-headers.hmap -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-all-target-headers.hmap -iquote /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-project-headers.hmap -I/Users/ocrickard/src/OCCamera/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/DerivedSources/armv7s -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/DerivedSources -F/Users/ocrickard/src/OCCamera/build/Debug-iphoneos -include /var/folders/k2/fqx7l37x0b7267n5rcglysn00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OCCamera-Prefix-disykuyyrmiaksazkrsjqsecnnnx/OCCamera-Prefix.pch -MMD -MT dependencies -MF /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/ViewController.d --serialize-diagnostics /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/ViewController.dia -c /Users/ocrickard/src/OCCamera/OCCamera/ViewController.m -o /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/ViewController.o36"EE709434-1092-4992-A223-6A706DDC81C6-
+
+CCompileC build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/main.o /Users/ocrickard/src/OCCamera/OCCamera/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381524715.534802
+e381524715.569163
+r1
+xCompileC
+xbuild/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/main.o
+x/Users/ocrickard/src/OCCamera/OCCamera/main.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Compile /Users/ocrickard/src/OCCamera/OCCamera/main.me10d89eb9abdb641^0dc591eb9abdb641^---0#0#0#-19%DVTDocumentLocation2@61"file://localhost/Users/ocrickard/src/OCCamera/OCCamera/main.m0000000000000000^3136"CompileC build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/main.o OCCamera/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ocrickard/src/OCCamera    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-generated-files.hmap -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-own-target-headers.hmap -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-all-target-headers.hmap -iquote /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-project-headers.hmap -I/Users/ocrickard/src/OCCamera/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/DerivedSources/armv7s -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/DerivedSources -F/Users/ocrickard/src/OCCamera/build/Debug-iphoneos -include /var/folders/k2/fqx7l37x0b7267n5rcglysn00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OCCamera-Prefix-disykuyyrmiaksazkrsjqsecnnnx/OCCamera-Prefix.pch -MMD -MT dependencies -MF /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/main.d --serialize-diagnostics /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/main.dia -c /Users/ocrickard/src/OCCamera/OCCamera/main.m -o /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/main.o36"EB5F751F-2C12-4425-98C0-F43D82893F3A-
+
+CCompileXIB /Users/ocrickard/src/OCCamera/OCCamera/en.lproj/ViewController_iPad.xib
+r0
+
+CCompileXIB /Users/ocrickard/src/OCCamera/OCCamera/en.lproj/ViewController_iPhone.xib
+r0
+
+CCopyPNGFile /Users/ocrickard/src/OCCamera/build/Debug-iphoneos/OCCamera.app/Default-568h@2x.png OCCamera/Default-568h@2x.png
+r0
+
+CCopyPNGFile /Users/ocrickard/src/OCCamera/build/Debug-iphoneos/OCCamera.app/Default.png OCCamera/Default.png
+r0
+
+CCopyPNGFile /Users/ocrickard/src/OCCamera/build/Debug-iphoneos/OCCamera.app/Default@2x.png OCCamera/Default@2x.png
+r0
+
+CCopyPNGFile /Users/ocrickard/src/OCCamera/build/Debug-iphoneos/OCCamera.app/focus_indicator@2x.png DIYCam/focus_indicator@2x.png
+r0
+
+CCopyStringsFile /Users/ocrickard/src/OCCamera/build/Debug-iphoneos/OCCamera.app/en.lproj/InfoPlist.strings OCCamera/en.lproj/InfoPlist.strings
+r0
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist build/Debug-iphoneos/OCCamera.app/ResourceRules.plist
+s381524715.288086
+e381524715.291193
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist
+xbuild/Debug-iphoneos/OCCamera.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy build/Debug-iphoneos/OCCamera.app/ResourceRules.plistf2ce49eb9abdb641^af934aeb9abdb641^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/ocrickard/src/OCCamera/build/Debug-iphoneos/OCCamera.app/ResourceRules.plist000000000080d041^710"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist build/Debug-iphoneos/OCCamera.app/ResourceRules.plist    cd /Users/ocrickard/src/OCCamera    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist /Users/ocrickard/src/OCCamera/build/Debug-iphoneos/OCCamera.app36"5C926A18-4627-4172-9B00-14D076FE8A5C-
+
+CGenerateDSYMFile /Users/ocrickard/src/OCCamera/build/Debug-iphoneos/OCCamera.app.dSYM /Users/ocrickard/src/OCCamera/build/Debug-iphoneos/OCCamera.app/OCCamera
+r0
+
+CLd /Users/ocrickard/src/OCCamera/build/Debug-iphoneos/OCCamera.app/OCCamera normal armv7s
+s381524715.783643
+e381524715.816928
+r0
+xLd
+x/Users/ocrickard/src/OCCamera/build/Debug-iphoneos/OCCamera.app/OCCamera
+xnormal
+xarmv7s
+oUndefined symbols for architecture armv7s:
+o  "_CMTimeGetSeconds", referenced from:
+o      +[DIYCamUtilities generateVideoThumbnail:success:failure:] in DIYCamUtilities.o
+o  "_OBJC_CLASS_$_ALAssetsLibrary", referenced from:
+o      objc-class-ref in DIYCamLibraryImageOperation.o
+o      objc-class-ref in DIYCamLibraryVideoOperation.o
+o  "_CMVideoFormatDescriptionGetCleanAperture", referenced from:
+o      +[DIYAVUtilities convertToPointOfInterestFromViewCoordinates:withFrame:withPreview:withPorts:] in DIYAVUtilities.o
+o  "_CMTimeMakeWithSeconds", referenced from:
+o      -[DIYAV establishVideoMode] in DIYAV.o
+o      +[DIYCamUtilities generateVideoThumbnail:success:failure:] in DIYCamUtilities.o
+o  "_kUTTypeMovie", referenced from:
+o      +[DIYAVUtilities isVideoCameraAvailable] in DIYAVUtilities.o
+o  "_CMTimeMake", referenced from:
+o      -[DIYAV establishVideoMode] in DIYAV.o
+o  "_CMTimeShow", referenced from:
+o      -[DIYAV establishVideoMode] in DIYAV.o
+old: symbol(s) not found for architecture armv7s
+oclang: error: linker command failed with exit code 1 (use -v to see invocation)
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Link /Users/ocrickard/src/OCCamera/build/Debug-iphoneos/OCCamera.app/OCCameraffb1c8eb9abdb641^1920d1eb9abdb641^-1079"Undefined symbols for architecture armv7s:  "_CMTimeGetSeconds", referenced from:      +[DIYCamUtilities generateVideoThumbnail:success:failure:] in DIYCamUtilities.o  "_OBJC_CLASS_$_ALAssetsLibrary", referenced from:      objc-class-ref in DIYCamLibraryImageOperation.o      objc-class-ref in DIYCamLibraryVideoOperation.o  "_CMVideoFormatDescriptionGetCleanAperture", referenced from:      +[DIYAVUtilities convertToPointOfInterestFromViewCoordinates:withFrame:withPreview:withPorts:] in DIYAVUtilities.o  "_CMTimeMakeWithSeconds", referenced from:      -[DIYAV establishVideoMode] in DIYAV.o      +[DIYCamUtilities generateVideoThumbnail:success:failure:] in DIYCamUtilities.o  "_kUTTypeMovie", referenced from:      +[DIYAVUtilities isVideoCameraAvailable] in DIYAVUtilities.o  "_CMTimeMake", referenced from:      -[DIYAV establishVideoMode] in DIYAV.o  "_CMTimeShow", referenced from:      -[DIYAV establishVideoMode] in DIYAV.old: symbol(s) not found for architecture armv7sclang: error: linker command failed with exit code 1 (use -v to see invocation)18(21%IDEActivityLogMessage2@37""_CMTimeGetSeconds", referenced from:-381524715#43#40#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--2@79"+[DIYCamUtilities generateVideoThumbnail:success:failure:] in DIYCamUtilities.o-381524715#83#86#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@49""_OBJC_CLASS_$_ALAssetsLibrary", referenced from:-381524715#169#52#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--2@47"Objc-class-ref in DIYCamLibraryImageOperation.o-381524715#221#54#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@47"Objc-class-ref in DIYCamLibraryVideoOperation.o-381524715#275#54#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@61""_CMVideoFormatDescriptionGetCleanAperture", referenced from:-381524715#329#64#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--2@114"+[DIYAVUtilities convertToPointOfInterestFromViewCoordinates:withFrame:withPreview:withPorts:] in DIYAVUtilities.o-381524715#393#121#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@42""_CMTimeMakeWithSeconds", referenced from:-381524715#514#45#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--2@38"-[DIYAV establishVideoMode] in DIYAV.o-381524715#559#45#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@79"+[DIYCamUtilities generateVideoThumbnail:success:failure:] in DIYCamUtilities.o-381524715#604#86#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@33""_kUTTypeMovie", referenced from:-381524715#690#36#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--2@60"+[DIYAVUtilities isVideoCameraAvailable] in DIYAVUtilities.o-381524715#726#67#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@31""_CMTimeMake", referenced from:-381524715#793#34#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--2@38"-[DIYAV establishVideoMode] in DIYAV.o-381524715#827#45#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@31""_CMTimeShow", referenced from:-381524715#872#34#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--2@38"-[DIYAV establishVideoMode] in DIYAV.o-381524715#906#45#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@43"Symbol(s) not found for architecture armv7s-381524715#951#48#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@65"Linker command failed with exit code 1 (use -v to see invocation)-381524715#999#80#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--0#0#0#--1023"Ld build/Debug-iphoneos/OCCamera.app/OCCamera normal armv7s    cd /Users/ocrickard/src/OCCamera    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/ocrickard/src/OCCamera/build/Debug-iphoneos -F/Users/ocrickard/src/OCCamera/build/Debug-iphoneos -filelist /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/Objects-normal/armv7s/OCCamera.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=6.1 -framework AVFoundation -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/ocrickard/src/OCCamera/build/Debug-iphoneos/OCCamera.app/OCCamera36"6A372F74-3CB2-4BBF-A5D6-813E4013FA26-
+
+CProcessInfoPlistFile /Users/ocrickard/src/OCCamera/build/Debug-iphoneos/OCCamera.app/Info.plist OCCamera/OCCamera-Info.plist
+s381524715.288096
+e381524715.290718
+r1
+xProcessInfoPlistFile
+x/Users/ocrickard/src/OCCamera/build/Debug-iphoneos/OCCamera.app/Info.plist
+xOCCamera/OCCamera-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Process OCCamera/OCCamera-Info.plistc0ce49eb9abdb641^207e4aeb9abdb641^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/ocrickard/src/OCCamera/OCCamera/OCCamera-Info.plist0000000000000000^698"ProcessInfoPlistFile build/Debug-iphoneos/OCCamera.app/Info.plist OCCamera/OCCamera-Info.plist    cd /Users/ocrickard/src/OCCamera    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility OCCamera/OCCamera-Info.plist -genpkginfo /Users/ocrickard/src/OCCamera/build/Debug-iphoneos/OCCamera.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/ocrickard/src/OCCamera/build/Debug-iphoneos/OCCamera.app/ResourceRules.plist -o /Users/ocrickard/src/OCCamera/build/Debug-iphoneos/OCCamera.app/Info.plist36"7E261115-72EE-4115-B530-CFCAD7B0545E-
+
+CProcessPCH /Users/ocrickard/Library/Developer/Xcode/DerivedData/OCCamera-gckbutxnioefiegtehhtvyitqnnm/Index/PrecompiledHeaders/OCCamera-Prefix-eaharbdfydjkqgfqvaxaoodfnapt_ast/OCCamera-Prefix.pch.pth OCCamera/OCCamera-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/k2/fqx7l37x0b7267n5rcglysn00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OCCamera-Prefix-disykuyyrmiaksazkrsjqsecnnnx/OCCamera-Prefix.pch.pth OCCamera/OCCamera-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381524715.298572
+e381524715.528409
+r1
+xProcessPCH
+x/var/folders/k2/fqx7l37x0b7267n5rcglysn00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OCCamera-Prefix-disykuyyrmiaksazkrsjqsecnnnx/OCCamera-Prefix.pch.pth
+xOCCamera/OCCamera-Prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile OCCamera/OCCamera-Prefix.pch1b854ceb9abdb641^284587eb9abdb641^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/ocrickard/src/OCCamera/OCCamera/OCCamera-Prefix.pch0000000000000000^3241"ProcessPCH /var/folders/k2/fqx7l37x0b7267n5rcglysn00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OCCamera-Prefix-disykuyyrmiaksazkrsjqsecnnnx/OCCamera-Prefix.pch.pth OCCamera/OCCamera-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ocrickard/src/OCCamera    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-generated-files.hmap -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-own-target-headers.hmap -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-all-target-headers.hmap -iquote /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera-project-headers.hmap -I/Users/ocrickard/src/OCCamera/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/DerivedSources/armv7s -I/Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/DerivedSources -F/Users/ocrickard/src/OCCamera/build/Debug-iphoneos --serialize-diagnostics /var/folders/k2/fqx7l37x0b7267n5rcglysn00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OCCamera-Prefix-disykuyyrmiaksazkrsjqsecnnnx/OCCamera-Prefix.pch.dia -c /Users/ocrickard/src/OCCamera/OCCamera/OCCamera-Prefix.pch -o /var/folders/k2/fqx7l37x0b7267n5rcglysn00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OCCamera-Prefix-disykuyyrmiaksazkrsjqsecnnnx/OCCamera-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/k2/fqx7l37x0b7267n5rcglysn00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OCCamera-Prefix-disykuyyrmiaksazkrsjqsecnnnx/OCCamera-Prefix.pch.d36"7B9B40E7-CA0C-40C8-A8CC-11092C2A4E28-
+
+CProcessProductPackaging "/Users/ocrickard/Library/MobileDevice/Provisioning Profiles/FF00B24F-9B35-4659-9C54-F6F9D08D3A4C.mobileprovision" /Users/ocrickard/src/OCCamera/build/Debug-iphoneos/OCCamera.app/embedded.mobileprovision
+r0
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist /Users/ocrickard/src/OCCamera/build/OCCamera.build/Debug-iphoneos/OCCamera.build/OCCamera.xcent
+r0
+
+CTouch /Users/ocrickard/src/OCCamera/build/Debug-iphoneos/OCCamera.app
+r0
+

@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 
-#import "ViewController.h"
+#import "OCCameraViewController.h"
 
 @implementation AppDelegate
 
@@ -16,15 +16,26 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        self.viewController = [[ViewController alloc] initWithNibName:@"ViewController_iPhone" bundle:nil];
-    } else {
-        self.viewController = [[ViewController alloc] initWithNibName:@"ViewController_iPad" bundle:nil];
-    }
+    
+    self.viewController = [[OCCameraViewController alloc] init];
+    self.viewController.delegate = self;
+    
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;
 }
+
+#pragma mark - OCCameraViewControllerDelegate 
+
+- (void)camera:(OCCameraViewController *)cameraViewController didTakePhoto:(NSString *)pathToPhoto {
+    NSLog(@"took photo:%@", pathToPhoto);
+}
+
+- (void)camera:(OCCameraViewController *)cameraViewController didTakeVideo:(NSString *)pathToVideo {
+    NSLog(@"took video:%@", pathToVideo);
+}
+
+#pragma mark - The usual suspects...
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {

@@ -16,9 +16,24 @@
 		B159C51A16BD9A9D009721AB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B159C51916BD9A9D009721AB /* Default.png */; };
 		B159C51C16BD9A9D009721AB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B159C51B16BD9A9D009721AB /* Default@2x.png */; };
 		B159C51E16BD9A9D009721AB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B159C51D16BD9A9D009721AB /* Default-568h@2x.png */; };
-		B159C52116BD9A9D009721AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B159C52016BD9A9D009721AB /* ViewController.m */; };
-		B159C52416BD9A9D009721AB /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B159C52216BD9A9D009721AB /* ViewController_iPhone.xib */; };
-		B159C52716BD9A9D009721AB /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = B159C52516BD9A9D009721AB /* ViewController_iPad.xib */; };
+		B159C52E16BD9AAA009721AB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B159C52D16BD9AAA009721AB /* AVFoundation.framework */; };
+		B159C54316BD9ADB009721AB /* DIYAV.m in Sources */ = {isa = PBXBuildFile; fileRef = B159C53116BD9ADB009721AB /* DIYAV.m */; };
+		B159C54416BD9ADB009721AB /* DIYAVPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = B159C53416BD9ADB009721AB /* DIYAVPreview.m */; };
+		B159C54516BD9ADB009721AB /* DIYAVUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = B159C53616BD9ADB009721AB /* DIYAVUtilities.m */; };
+		B159C54616BD9ADB009721AB /* Underscore+Functional.m in Sources */ = {isa = PBXBuildFile; fileRef = B159C53A16BD9ADB009721AB /* Underscore+Functional.m */; };
+		B159C54716BD9ADB009721AB /* Underscore.m in Sources */ = {isa = PBXBuildFile; fileRef = B159C53D16BD9ADB009721AB /* Underscore.m */; };
+		B159C54816BD9ADB009721AB /* USArrayWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = B159C53F16BD9ADB009721AB /* USArrayWrapper.m */; };
+		B159C54916BD9ADB009721AB /* USDictionaryWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = B159C54216BD9ADB009721AB /* USDictionaryWrapper.m */; };
+		B159C55716BD9AE8009721AB /* DIYCam.m in Sources */ = {isa = PBXBuildFile; fileRef = B159C54C16BD9AE8009721AB /* DIYCam.m */; };
+		B159C55816BD9AE8009721AB /* DIYCamFileOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B159C54F16BD9AE8009721AB /* DIYCamFileOperation.m */; };
+		B159C55916BD9AE8009721AB /* DIYCamLibraryImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B159C55116BD9AE8009721AB /* DIYCamLibraryImageOperation.m */; };
+		B159C55A16BD9AE8009721AB /* DIYCamLibraryVideoOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B159C55316BD9AE8009721AB /* DIYCamLibraryVideoOperation.m */; };
+		B159C55B16BD9AE8009721AB /* DIYCamUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = B159C55516BD9AE8009721AB /* DIYCamUtilities.m */; };
+		B159C55E16BD9B02009721AB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B159C55D16BD9B02009721AB /* QuartzCore.framework */; };
+		B159C56016BD9B08009721AB /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B159C55F16BD9B08009721AB /* CoreMedia.framework */; };
+		B159C56216BD9B0C009721AB /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B159C56116BD9B0C009721AB /* AssetsLibrary.framework */; };
+		B159C56416BD9B16009721AB /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B159C56316BD9B16009721AB /* MobileCoreServices.framework */; };
+		B159C56716BD9B4C009721AB /* OCCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B159C56616BD9B4C009721AB /* OCCameraViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,10 +50,41 @@
 		B159C51916BD9A9D009721AB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		B159C51B16BD9A9D009721AB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		B159C51D16BD9A9D009721AB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		B159C51F16BD9A9D009721AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B159C52016BD9A9D009721AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B159C52316BD9A9D009721AB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
-		B159C52616BD9A9D009721AB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		B159C52D16BD9AAA009721AB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B159C53016BD9ADB009721AB /* DIYAV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIYAV.h; sourceTree = "<group>"; };
+		B159C53116BD9ADB009721AB /* DIYAV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIYAV.m; sourceTree = "<group>"; };
+		B159C53216BD9ADB009721AB /* DIYAVDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIYAVDefaults.h; sourceTree = "<group>"; };
+		B159C53316BD9ADB009721AB /* DIYAVPreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIYAVPreview.h; sourceTree = "<group>"; };
+		B159C53416BD9ADB009721AB /* DIYAVPreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIYAVPreview.m; sourceTree = "<group>"; };
+		B159C53516BD9ADB009721AB /* DIYAVUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIYAVUtilities.h; sourceTree = "<group>"; };
+		B159C53616BD9ADB009721AB /* DIYAVUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIYAVUtilities.m; sourceTree = "<group>"; };
+		B159C53916BD9ADB009721AB /* Underscore+Functional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Underscore+Functional.h"; sourceTree = "<group>"; };
+		B159C53A16BD9ADB009721AB /* Underscore+Functional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Underscore+Functional.m"; sourceTree = "<group>"; };
+		B159C53B16BD9ADB009721AB /* Underscore-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Underscore-Prefix.pch"; sourceTree = "<group>"; };
+		B159C53C16BD9ADB009721AB /* Underscore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Underscore.h; sourceTree = "<group>"; };
+		B159C53D16BD9ADB009721AB /* Underscore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Underscore.m; sourceTree = "<group>"; };
+		B159C53E16BD9ADB009721AB /* USArrayWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USArrayWrapper.h; sourceTree = "<group>"; };
+		B159C53F16BD9ADB009721AB /* USArrayWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USArrayWrapper.m; sourceTree = "<group>"; };
+		B159C54016BD9ADB009721AB /* USConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USConstants.h; sourceTree = "<group>"; };
+		B159C54116BD9ADB009721AB /* USDictionaryWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USDictionaryWrapper.h; sourceTree = "<group>"; };
+		B159C54216BD9ADB009721AB /* USDictionaryWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USDictionaryWrapper.m; sourceTree = "<group>"; };
+		B159C54B16BD9AE8009721AB /* DIYCam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIYCam.h; sourceTree = "<group>"; };
+		B159C54C16BD9AE8009721AB /* DIYCam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIYCam.m; sourceTree = "<group>"; };
+		B159C54D16BD9AE8009721AB /* DIYCamDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIYCamDefaults.h; sourceTree = "<group>"; };
+		B159C54E16BD9AE8009721AB /* DIYCamFileOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIYCamFileOperation.h; sourceTree = "<group>"; };
+		B159C54F16BD9AE8009721AB /* DIYCamFileOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIYCamFileOperation.m; sourceTree = "<group>"; };
+		B159C55016BD9AE8009721AB /* DIYCamLibraryImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIYCamLibraryImageOperation.h; sourceTree = "<group>"; };
+		B159C55116BD9AE8009721AB /* DIYCamLibraryImageOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIYCamLibraryImageOperation.m; sourceTree = "<group>"; };
+		B159C55216BD9AE8009721AB /* DIYCamLibraryVideoOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIYCamLibraryVideoOperation.h; sourceTree = "<group>"; };
+		B159C55316BD9AE8009721AB /* DIYCamLibraryVideoOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIYCamLibraryVideoOperation.m; sourceTree = "<group>"; };
+		B159C55416BD9AE8009721AB /* DIYCamUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIYCamUtilities.h; sourceTree = "<group>"; };
+		B159C55516BD9AE8009721AB /* DIYCamUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIYCamUtilities.m; sourceTree = "<group>"; };
+		B159C55D16BD9B02009721AB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B159C55F16BD9B08009721AB /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		B159C56116BD9B0C009721AB /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		B159C56316BD9B16009721AB /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		B159C56516BD9B4C009721AB /* OCCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCCameraViewController.h; sourceTree = "<group>"; };
+		B159C56616BD9B4C009721AB /* OCCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCCameraViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +92,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B159C56416BD9B16009721AB /* MobileCoreServices.framework in Frameworks */,
+				B159C56216BD9B0C009721AB /* AssetsLibrary.framework in Frameworks */,
+				B159C56016BD9B08009721AB /* CoreMedia.framework in Frameworks */,
+				B159C55E16BD9B02009721AB /* QuartzCore.framework in Frameworks */,
+				B159C52E16BD9AAA009721AB /* AVFoundation.framework in Frameworks */,
 				B159C50816BD9A9D009721AB /* UIKit.framework in Frameworks */,
 				B159C50A16BD9A9D009721AB /* Foundation.framework in Frameworks */,
 				B159C50C16BD9A9D009721AB /* CoreGraphics.framework in Frameworks */,
@@ -58,6 +109,8 @@
 		B159C4FB16BD9A9D009721AB = {
 			isa = PBXGroup;
 			children = (
+				B159C54A16BD9AE8009721AB /* DIYCam */,
+				B159C52F16BD9ADB009721AB /* DIYAV */,
 				B159C50D16BD9A9D009721AB /* OCCamera */,
 				B159C50616BD9A9D009721AB /* Frameworks */,
 				B159C50516BD9A9D009721AB /* Products */,
@@ -75,6 +128,11 @@
 		B159C50616BD9A9D009721AB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B159C56316BD9B16009721AB /* MobileCoreServices.framework */,
+				B159C56116BD9B0C009721AB /* AssetsLibrary.framework */,
+				B159C55F16BD9B08009721AB /* CoreMedia.framework */,
+				B159C55D16BD9B02009721AB /* QuartzCore.framework */,
+				B159C52D16BD9AAA009721AB /* AVFoundation.framework */,
 				B159C50716BD9A9D009721AB /* UIKit.framework */,
 				B159C50916BD9A9D009721AB /* Foundation.framework */,
 				B159C50B16BD9A9D009721AB /* CoreGraphics.framework */,
@@ -87,10 +145,8 @@
 			children = (
 				B159C51616BD9A9D009721AB /* AppDelegate.h */,
 				B159C51716BD9A9D009721AB /* AppDelegate.m */,
-				B159C51F16BD9A9D009721AB /* ViewController.h */,
-				B159C52016BD9A9D009721AB /* ViewController.m */,
-				B159C52216BD9A9D009721AB /* ViewController_iPhone.xib */,
-				B159C52516BD9A9D009721AB /* ViewController_iPad.xib */,
+				B159C56516BD9B4C009721AB /* OCCameraViewController.h */,
+				B159C56616BD9B4C009721AB /* OCCameraViewController.m */,
 				B159C50E16BD9A9D009721AB /* Supporting Files */,
 			);
 			path = OCCamera;
@@ -108,6 +164,64 @@
 				B159C51D16BD9A9D009721AB /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B159C52F16BD9ADB009721AB /* DIYAV */ = {
+			isa = PBXGroup;
+			children = (
+				B159C53016BD9ADB009721AB /* DIYAV.h */,
+				B159C53116BD9ADB009721AB /* DIYAV.m */,
+				B159C53216BD9ADB009721AB /* DIYAVDefaults.h */,
+				B159C53316BD9ADB009721AB /* DIYAVPreview.h */,
+				B159C53416BD9ADB009721AB /* DIYAVPreview.m */,
+				B159C53516BD9ADB009721AB /* DIYAVUtilities.h */,
+				B159C53616BD9ADB009721AB /* DIYAVUtilities.m */,
+				B159C53716BD9ADB009721AB /* lib */,
+			);
+			path = DIYAV;
+			sourceTree = "<group>";
+		};
+		B159C53716BD9ADB009721AB /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				B159C53816BD9ADB009721AB /* Underscore */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		B159C53816BD9ADB009721AB /* Underscore */ = {
+			isa = PBXGroup;
+			children = (
+				B159C53916BD9ADB009721AB /* Underscore+Functional.h */,
+				B159C53A16BD9ADB009721AB /* Underscore+Functional.m */,
+				B159C53B16BD9ADB009721AB /* Underscore-Prefix.pch */,
+				B159C53C16BD9ADB009721AB /* Underscore.h */,
+				B159C53D16BD9ADB009721AB /* Underscore.m */,
+				B159C53E16BD9ADB009721AB /* USArrayWrapper.h */,
+				B159C53F16BD9ADB009721AB /* USArrayWrapper.m */,
+				B159C54016BD9ADB009721AB /* USConstants.h */,
+				B159C54116BD9ADB009721AB /* USDictionaryWrapper.h */,
+				B159C54216BD9ADB009721AB /* USDictionaryWrapper.m */,
+			);
+			path = Underscore;
+			sourceTree = "<group>";
+		};
+		B159C54A16BD9AE8009721AB /* DIYCam */ = {
+			isa = PBXGroup;
+			children = (
+				B159C54B16BD9AE8009721AB /* DIYCam.h */,
+				B159C54C16BD9AE8009721AB /* DIYCam.m */,
+				B159C54D16BD9AE8009721AB /* DIYCamDefaults.h */,
+				B159C54E16BD9AE8009721AB /* DIYCamFileOperation.h */,
+				B159C54F16BD9AE8009721AB /* DIYCamFileOperation.m */,
+				B159C55016BD9AE8009721AB /* DIYCamLibraryImageOperation.h */,
+				B159C55116BD9AE8009721AB /* DIYCamLibraryImageOperation.m */,
+				B159C55216BD9AE8009721AB /* DIYCamLibraryVideoOperation.h */,
+				B159C55316BD9AE8009721AB /* DIYCamLibraryVideoOperation.m */,
+				B159C55416BD9AE8009721AB /* DIYCamUtilities.h */,
+				B159C55516BD9AE8009721AB /* DIYCamUtilities.m */,
+			);
+			path = DIYCam;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,8 +279,6 @@
 				B159C51A16BD9A9D009721AB /* Default.png in Resources */,
 				B159C51C16BD9A9D009721AB /* Default@2x.png in Resources */,
 				B159C51E16BD9A9D009721AB /* Default-568h@2x.png in Resources */,
-				B159C52416BD9A9D009721AB /* ViewController_iPhone.xib in Resources */,
-				B159C52716BD9A9D009721AB /* ViewController_iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,7 +291,19 @@
 			files = (
 				B159C51416BD9A9D009721AB /* main.m in Sources */,
 				B159C51816BD9A9D009721AB /* AppDelegate.m in Sources */,
-				B159C52116BD9A9D009721AB /* ViewController.m in Sources */,
+				B159C54316BD9ADB009721AB /* DIYAV.m in Sources */,
+				B159C54416BD9ADB009721AB /* DIYAVPreview.m in Sources */,
+				B159C54516BD9ADB009721AB /* DIYAVUtilities.m in Sources */,
+				B159C54616BD9ADB009721AB /* Underscore+Functional.m in Sources */,
+				B159C54716BD9ADB009721AB /* Underscore.m in Sources */,
+				B159C54816BD9ADB009721AB /* USArrayWrapper.m in Sources */,
+				B159C54916BD9ADB009721AB /* USDictionaryWrapper.m in Sources */,
+				B159C55716BD9AE8009721AB /* DIYCam.m in Sources */,
+				B159C55816BD9AE8009721AB /* DIYCamFileOperation.m in Sources */,
+				B159C55916BD9AE8009721AB /* DIYCamLibraryImageOperation.m in Sources */,
+				B159C55A16BD9AE8009721AB /* DIYCamLibraryVideoOperation.m in Sources */,
+				B159C55B16BD9AE8009721AB /* DIYCamUtilities.m in Sources */,
+				B159C56716BD9B4C009721AB /* OCCameraViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,22 +316,6 @@
 				B159C51116BD9A9D009721AB /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		B159C52216BD9A9D009721AB /* ViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B159C52316BD9A9D009721AB /* en */,
-			);
-			name = ViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		B159C52516BD9A9D009721AB /* ViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B159C52616BD9A9D009721AB /* en */,
-			);
-			name = ViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -312,6 +420,7 @@
 				B159C52C16BD9A9D009721AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
