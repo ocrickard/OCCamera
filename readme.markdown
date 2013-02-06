@@ -38,6 +38,14 @@ camController.delegate = self;
 
 6.  Tweak and enjoy!
 
+##TODO##
+
+1.  Finish up the flash button.
+
+2.  Test implementation on more devices (I've only tested on my iPhone 5).
+
+3. Generalize all components.  At the moment, I've written somewhat static components that should be generalized.
+
 #License#
 
 OCCamera is released under the *MIT License*.
