@@ -42,7 +42,7 @@ camController.delegate = self;
 
 ##TODO##
 
-1.  Finish up the flash button.
+1.  Finish up the flash button.  It still has some problems, and I need to test the flash modes more.
 
 2.  Test implementation on more devices (I've only tested on my iPhone 5).
 
